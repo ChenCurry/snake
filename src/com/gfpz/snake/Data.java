@@ -25,4 +25,7 @@ public class Data {
     //食物
     public static URL foodURL = Data.class.getResource("/statics/food.png");
     public static ImageIcon food = new ImageIcon(foodURL);
+    //图标
+    public static URL tbURL = Data.class.getResource("/statics/xxnxs.png");//tb.jpg  xxnxs.png
+    public static ImageIcon tb = new ImageIcon(tbURL);
 }
